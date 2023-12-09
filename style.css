@@ -1,0 +1,118 @@
+* {
+    margin-top: 3px;
+    padding: 0;
+}
+    
+    div {
+        border: 2px solid green;
+        border-radius: 30px;
+        background-color: papayawhip;
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+    }
+    
+    legend {
+        margin-left: 80px;
+        color: green;
+        
+    }
+    
+    fieldset {
+    border-radius: 10px;
+    border: 2px solid palegreen;
+    }
+    
+    
+    figcaption {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        color: red;
+    }
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+.container-input {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-left: 75px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid #00ff81;
+    width: 200px;
+}
+   
+  .container-txt {
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin-left: 75px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid #00FF81;
+    width: 200px;
+    }
+   
+  .container-pass {
+     background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin-left: 75px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid #00FF81;
+    width: 200px;
+  }
+
+.container-radio {
+    margin-left: 75px;
+    margin-top: 8px;
+}
+
+.custom-radio {
+    margin-left: 73px;
+}
+
+.btn {
+    margin-left: 75px;
+    margin-bottom: 22px;
+    width: 210px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 2px seagreen;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: papayawhip;
+    
+}
+
+.btn:active {
+    background-color: purple;
+}
+
+.prg {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+    
+@media screen and (max-width: 700px){
+ form .all_inputs div{
+     width: 100%;
+ }
+    
+}
